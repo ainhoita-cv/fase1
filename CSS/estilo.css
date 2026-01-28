@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+}
+
+main {
+    height: 200vh;
+    background-color: #ffffff;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: (6, 1fr);
+
+
+}
+
+section {
+
+    border: 1px solid black;
+}
+
+#n1 {
+
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background: #041354;
+
+}
+
+#n2 {
+
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background: #ededed;
+
+}
+
+#n3 {
+
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background: #ff834c;
+
+}
+
+#n4 {
+
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background: #51e6d6;
+
+}
+
+#n5 {
+
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background:
+        #ffffff;
+
+}
+
+#n6 {
+
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background: #ffffff;
+
+}
+
+#n7 {
+
+    grid-column: 1/2;
+    grid-row: 3/4;
+  background: #4c7af3;
+}
+
+#n8 {
+
+    grid-column: 2/3;
+    grid-row: 3/4;
+background-color: #ffffff;
+
+}
+
+
+#n9 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    background-color: #d4dae7;
+}
+#n10 {
+
+    grid-column: 1/2;
+    grid-row: 4/5;
+  background: #041354;
+}
+#n11 {
+
+    grid-column: 2/3;
+    grid-row: 4/5;
+  background: #4c7af3;
+}
+
+#n12 {
+
+    grid-column: 3/4;
+    grid-row: 4/5;
+  background: #ffffff;
+}
+#n13 {
+
+    grid-column: 1/2;
+    grid-row: 5/6;
+  background: #d4dae7;
+}
+#n14 {
+
+    grid-column: 2/3;
+    grid-row: 5/6;
+  background: #ffffff;
+  
+}
+#n15 {
+
+    grid-column: 3/4;
+    grid-row: 5/6;
+  background: #ffffff;
+  
+}
+#n16{
+    background-color:#51e6d6;
+}
+#n17{
+
+    background-color:#ff834c ;
+}
+#n18{
+    background-color:#51e6d6;
+}
+#n19{
+    background-color:#4c7af3;
+}
+#n20{
+
+    background-color:#ff834c ;
+}
+#n21{
+
+    background-color:#d4dae7 ;
+}
+#n21{
+
+    background-color:#4c7af3 ;
+}
+#n22{
+
+    background-color:#ffffff ;
+}
+#n23{
+
+    background-color:#041354 ;
+}
+#n24{
+
+    background-color:#ffffff ;
+}
+#n25{
+
+    background-color:#ffffff ;
+}
+#n26{
+
+    background-color:#ffffff ;
+}
+#n27{
+
+    background-color:#ffffff ;
+}
+#n28{
+
+    background-color:#51e6d6 ;
+}
+#n29{
+
+    background-color:#ff834c ;
+}
+#n30{
+
+    background-color:#51e6d6 ;
+}
+
+
+@media screen and (main min-width) {}
